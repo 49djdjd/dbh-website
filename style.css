@@ -1,0 +1,33 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 500px;
+    float: right;
+    display: flex;;
+    align-items: flex-end;
+    bottom:10px;
+}
+
+.typewriter h1{
+    color: black;
+    overflow: hidden;
+    border-right: .15em solid aliceblue;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(30, end), 
+        blink-caret .5s step-end
+        infinite;
+}
+@keyframes typing{
+    from {width:0}
+    to {width: 100%}
+}
+@keyframes blink-caret{
+    from,to{border-color: transparent}
+    50% {border-color: aliceblue}
+}
