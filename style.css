@@ -5,8 +5,7 @@ h1{
 img{
     width: 350px;
     height: 500px;
-    float: right;
-    display: flex;;
+    display: flex;
     align-items: flex-end;
     bottom:10px;
 }
@@ -30,4 +29,36 @@ img{
 @keyframes blink-caret{
     from,to{border-color: transparent}
     50% {border-color: aliceblue}
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height:100%;
+    z-index: -1;
+
+}
+.heading{
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding:20px;
+    z-index: 1;
+}
+#myBtn{
+    width:200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#myBtn:hover{
+    background: #ddd;
+    color: black;
 }
