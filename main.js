@@ -7,5 +7,8 @@ function myFunction() {
   } else {
     video.pause();
   }
-  
 }
+
+video.onended = function(){
+  window.location.href="intro.html"
+};
