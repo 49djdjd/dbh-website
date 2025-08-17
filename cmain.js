@@ -10,6 +10,8 @@ function myFunction() {
 }
 
 video.onended = function(){
-    window.location.href="intro.html"
+  document.body.style.backgroundImage = 'url("cbackground.jpg")';
+  video.style.display ='none';
+
 };
 
