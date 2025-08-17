@@ -7,4 +7,5 @@ function myFunction() {
   } else {
     video.pause();
   }
+  
 }

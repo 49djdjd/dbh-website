@@ -9,12 +9,19 @@ h1{
 
 }
 
+.d-font{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
 .typewriter h1{
     color: black;
     overflow: hidden;
     border-right: .15em solid aliceblue;
     white-space: nowrap;
     margin: 0 auto;
+    font-family: 'Figree', sans-serif;
+    font-weight: 300;
+
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(30, end), 
@@ -46,7 +53,6 @@ h1{
     width: 100%;
     display:inline;
     padding:20px;
-    z-index: 1;
 }
 .button{
     display: flex;
@@ -54,7 +60,7 @@ h1{
     right:20px;
     background-color: transparent;
     cursor: pointer;
-    margin: 20px;
+    margin-right: 20px;
 }
 
 #myBtn:hover{
@@ -65,6 +71,7 @@ h1{
     border: none;
     cursor: pointer;
     border-radius: 50%;
-
+    z-index: 1;
+    
 
 }
