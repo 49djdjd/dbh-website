@@ -11,6 +11,17 @@
     <div class="button">
         <button id="myBtn"><img id="buttons" src="button2.png"></button>
       </div>
+      <div class="gallery">
+        <img src="markus/markus1.png">
+        <img src="markus/markus2.png">
+        <img src="markus/markus3.png">
+    </div>  
+    <video id="Vmarkus">
+        <source src="markus/markus video.mp4" type="video/mp4">
+      </video>
+      <div class="button">
+        <button id="BM" onclick="myFunction()"><img id="buttons" src="markus/markus-button.png"></button>
+      </div>
 </body>
 <style>
     body{
@@ -20,6 +31,13 @@
     }
     #myBtn{
         background-color: transparent;
+    }
+    .gallery{
+        display: flex;
+        justify-content: space-between;
+    }
+    #BM{
+        background-color:transparent;
     }
 </style>
 </html>
