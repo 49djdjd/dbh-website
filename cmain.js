@@ -11,7 +11,7 @@ function myFunction() {
 
 // ai was used to help me debug this because I had some issues
 video.onended = function(){
-  document.body.style.backgroundImage = 'url("connor-backgorund.jpg")';
+  document.body.style.backgroundImage = 'url("connor/connor-backgorund.jpg")';
   video.style.display ='none';
   document.body.style.backgroundSize ='cover';
   document.body.style.backgroundAttachment = 'fixed';
