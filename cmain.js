@@ -19,5 +19,8 @@ video.onended = function(){
   btn.onclick = function(){
     window.location.href = "intro.html"
   }
+
+  gallery.style.display ='block';
 };
+
 

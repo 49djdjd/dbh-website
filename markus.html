@@ -12,14 +12,14 @@
         <button id="myBtn"><img id="buttons" src="button2.png"></button>
       </div>
       <div class="gallery">
-        <img src="markus/markus1.png">
+        <img id="too big" src="markus/markus1.png">
         <img src="markus/markus2.png">
         <img src="markus/markus3.png">
     </div>  
     <video id="Vmarkus">
         <source src="markus/markus video.mp4" type="video/mp4">
       </video>
-      <div class="button">
+      <div class="buttons">
         <button id="BM" onclick="myFunction()"><img id="buttons" src="markus/markus-button.png"></button>
       </div>
 </body>
@@ -31,13 +31,28 @@
     }
     #myBtn{
         background-color: transparent;
+        z-index: 101;
     }
     .gallery{
         display: flex;
         justify-content: space-between;
+        margin-right: 550px;
     }
     #BM{
         background-color:transparent;
+        border:none;
+        margin-right: 550px;
+    }
+    #Vmarkus{
+        position: fixed;
+        z-index: 0;
+        display: none;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
     }
 </style>
 </html>
