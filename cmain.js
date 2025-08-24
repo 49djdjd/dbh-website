@@ -1,5 +1,7 @@
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
+var gallery = document.querySelector(".gallery");
+var text = document.querySelector(".text");
 
 function myFunction() {
   if (!video.paused) {
@@ -21,6 +23,7 @@ video.onended = function(){
   }
 
   gallery.style.display ='block';
+  text.style.display ='block';
 };
 
 
