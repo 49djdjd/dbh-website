@@ -13,3 +13,4 @@ I had a lot of trouble with the videos and then hiding the images behind it/paus
 From this project, I learned how to use JS and futher advanced my html/css. I learned how to implement videos and used the margins way more. I tried to be more organized with the files and I was able to code this website far faster than my past one and I was more confident in writing my code (i didn't have to look every single thing up!) I also learned how to be patient and go through the process of debugging... 
 
 Overall, I am proud of this site and this site serves as a personal project/tribute to the game of Detriot: Become Human. If you haven't played this game, I highly recommend you do!
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
